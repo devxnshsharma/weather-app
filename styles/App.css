@@ -1,0 +1,45 @@
+/* App Layout */
+.app-content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr; /* Left main col, right side col */
+  grid-template-rows: 1.2fr 1fr; /* Top row, bottom row */
+  gap: 20px;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.main-weather-section { grid-area: 1 / 1 / 2 / 2; }
+.details-section { grid-area: 1 / 2 / 2 / 3; }
+.stats-section { grid-area: 2 / 1 / 3 / 2; }
+.forecast-section { grid-area: 2 / 2 / 3 / 3; }
+
+.text-muted { color: var(--text-secondary); }
+.font-large { font-size: 3.5rem; font-weight: 600; }
+.font-medium { font-size: 1.5rem; font-weight: 500; }
+.flex-between { display: flex; justify-content: space-between; align-items: center; }
+.flex-center { display: flex; justify-content: center; align-items: center; }
+.mb-2 { margin-bottom: 1rem; }
+
+/* Sidebar */
+.sidebar {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  gap: 25px;
+  border-right: 1px solid var(--glass-border);
+}
+.sidebar-icon {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.sidebar-icon.active, .sidebar-icon:hover {
+  background: rgba(255,255,255,0.15);
+  color: white;
+}

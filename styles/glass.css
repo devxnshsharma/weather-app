@@ -1,0 +1,39 @@
+:root {
+  --glass-bg: rgba(40, 44, 52, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --accent-wave: rgba(255, 182, 193, 0.5); /* Light pink for chart */
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: url('https://images.unsplash.com/photo-1563974318767-a4de855d7b43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: var(--text-primary);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.dashboard-container {
+  display: flex;
+  height: 95vh;
+  width: 95vw;
+  margin: 2.5vh auto;
+  background: rgba(40, 40, 40, 0.7);
+  backdrop-filter: blur(20px);
+  border-radius: 30px;
+  border: 1px solid var(--glass-border);
+  overflow: hidden;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+  padding: 25px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}

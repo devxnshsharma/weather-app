@@ -1,6 +1,6 @@
 # SkyCast: Glassmorphic Weather Dashboard
 
-SkyCast is a high-performance, responsive web application that provides real-time weather analytics for over 200,000 cities. Built with **React.js**, it features a modern **Glassmorphism** UI, dynamic data rendering, and optimized API integration.
+SkyCast is a high-performance, responsive web application that provides real-time weather analytics for over 200,000 cities. Built with **React.js**, it features a **Glassmorphism** UI, dynamic data rendering, and optimized API integration.
 
 ## Key Features
 

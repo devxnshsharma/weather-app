@@ -144,6 +144,3 @@ When the application loads:
 * B.Tech Computer Science and Engineering, VIT Vellore
 * GitHub: [@devxnshsharma](https://github.com/devxnshsharma)
 
----
-
-**Would you like me to generate the `SETUP_GUIDE.md` for this project to make it as detailed as your MedRep repository?**

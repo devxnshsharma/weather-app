@@ -5,8 +5,8 @@ import { getWeatherIcon } from '../utils/weatherIcons';
 const ForecastCard = ({ weatherData }) => {
   if (!weatherData) return null;
 
-  const dailyForecast = weatherData.forecast.list.filter((reading) =>
-    reading.dt_txt.includes("12:00:00")
+  const dailyForecast = weatherData.forecast.list.filter((reading, index) => 
+    index % 8 === 0
   ).slice(0, 5); 
   return (
     <div className="glass-card forecast-section">
